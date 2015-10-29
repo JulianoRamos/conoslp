@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+	<title>ConosLp</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<h:outputStylesheet library="css" name="login.css" />
+</h:head>
+
+<h:body>
+	<header id="cabecalho">
+		<h1>ConosLp</h1>
+	</header>
+	<div id="login">
+		<h1>Login</h1>
+		<form method="post" action="j_security_check">
+			<input type="text" name="j_username" placeholder="Usuário" /> 
+			<input type="password" name="j_password" placeholder="Senha" /> 
+			<input type="submit" value="Entrar" />
+		</form>
+	</div>
+</h:body>
+</html>
