@@ -3,11 +3,13 @@
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://java.sun.com/jsf/core">
 
-	<h:form>
-		<h:panelGrid>
-			<h:commandLink action="#{autenticadorController.sair}" value="Sair" />
-			<h:commandLink action ="/usuarios" value="Usuários" />
-		</h:panelGrid>
+	<h:form prependId="false">
+		<h:panelGroup id="footer" styleClass="navbar navbar-inverse navbar-fixed-bottom"
+			role="navigation">
+			<div class="container-fluid">
+				
+			</div>
+		</h:panelGroup>
 	</h:form>
 
 </ui:composition>
